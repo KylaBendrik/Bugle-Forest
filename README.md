@@ -1,1 +1,1 @@
-Bugle Forest
+Bugle Forest ResourcePack
