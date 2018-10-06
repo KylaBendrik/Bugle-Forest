@@ -1,5 +1,5 @@
 {
     "variants": {
-        "": { "model": "block/spruce_leaves" }
+        "normal": [{ "model": "block/spruce_leaves_bushy" }, {"model": "spruce_leaves_bushy1"}]
     }
 }

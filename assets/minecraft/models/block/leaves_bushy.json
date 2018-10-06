@@ -1,0 +1,112 @@
+{
+    "parent": "block/block",
+    "textures": {
+        "particle": "#all"
+    },
+    "elements": [
+        {   "from": [17, 0, -2],
+            "to": [18, 16, 18],
+            "rotation": { "origin": [8, 8, 8], "axis": "z", "angle": 45, "rescale": false},
+            "shade": false,
+            "faces": {
+                "east": {"uv": [0, 0, 16, 16], "texture": "#branch", "tintindex":1},
+                "west": {"uv": [0, 0, 16, 16], "texture": "#branch", "tintindex":1}
+            }
+        
+        },
+        {   "from": [19, -8, -4],
+            "to": [20, 10, 20],
+            "rotation": { "origin": [8, 1, 8], "axis": "z", "angle": 22.5, "rescale": false},
+            "shade": false,
+            "faces": {
+                "east": {"uv": [0, 0, 16, 16], "texture": "#branch", "tintindex":1},
+                "west": {"uv": [0, 0, 16, 16], "texture": "#branch", "tintindex":1}
+            }
+        },
+        {   "from": [-2, 0, -2],
+            "to": [-1, 16, 18],
+            "rotation": { "origin": [8, 8, 8], "axis": "z", "angle": -45, "rescale": false},
+            "shade": false,
+            "faces": {
+                "east": {"uv": [0, 0, 16, 16], "texture": "#branch", "tintindex":1},
+                "west": {"uv": [0, 0, 16, 16], "texture": "#branch", "tintindex":1}
+            }
+        
+        },
+        {   "from": [-3, -8, -4],
+            "to": [-2, 10, 20],
+            "rotation": { "origin": [8, 1, 8], "axis": "z", "angle": -22.5, "rescale": false},
+            "shade": false,
+            "faces": {
+                "east": {"uv": [0, 0, 16, 16], "texture": "#branch", "tintindex":1},
+                "west": {"uv": [0, 0, 16, 16], "texture": "#branch", "tintindex":1}
+            }
+
+        },
+        {   "from": [-2, 0, -2],
+            "to": [18, 16, -1],
+            "rotation": { "origin": [8, 8, 8], "axis": "x", "angle": 45, "rescale": false},
+            "shade": false,
+            "faces": {
+                "north": {"uv": [0, 0, 16, 16], "texture": "#branch", "tintindex":1},
+                "south": {"uv": [0, 0, 16, 16], "texture": "#branch", "tintindex":1}
+            }
+        
+        },
+        {   "from": [-4, -8, -4],
+            "to": [20, 10, -3],
+            "rotation": { "origin": [8, 1, 8], "axis": "x", "angle": 22.5, "rescale": false},
+            "shade": false,
+            "faces": {
+                "north": {"uv": [0, 0, 16, 16], "texture": "#branch", "tintindex":1},
+                "south": {"uv": [0, 0, 16, 16], "texture": "#branch", "tintindex":1}
+            }
+        },
+
+        {   "from": [-2, 0, 17],
+            "to": [18, 16, 18],
+            "rotation": { "origin": [8, 8, 8], "axis": "x", "angle": -45, "rescale": false},
+            "shade": false,
+            "faces": {
+                "north": {"uv": [0, 0, 16, 16], "texture": "#branch", "tintindex":1},
+                "south": {"uv": [0, 0, 16, 16], "texture": "#branch", "tintindex":1}
+            }
+        
+        },
+        {   "from": [-4, -8, 19],
+            "to": [20, 10, 20],
+            "rotation": { "origin": [8, 1, 8], "axis": "x", "angle": -45, "rescale": false},
+            "shade": false,
+            "faces": {
+                "north": {"uv": [0, 0, 16, 16], "texture": "#branch", "tintindex":1},
+                "south": {"uv": [0, 0, 16, 16], "texture": "#branch", "tintindex":1}
+            }
+        
+        },
+
+
+        {   "from": [7, -10, -12],
+            "to": [9, 20, 28],
+            "rotation": { "origin": [8, 0, 8], "axis": "y", "angle": 45, "rescale": false},
+            "shade": false,
+            "faces": {
+                "west": {"uv": [0, 0, 16, 16], "texture": "#bushy", "tintindex":1},
+                "east": {"uv": [0, 0, 16, 16], "texture": "#bushy", "tintindex":1}
+            }
+        
+        },
+
+        {   "from": [-12, -10, 7],
+            "to": [28, 20, 9],
+            "rotation": { "origin": [8, 0, 8], "axis": "y", "angle": 45, "rescale": false},
+            "shade": false,
+            "faces": {
+                "north": {"uv": [0, 0, 16, 16], "texture": "#bushy", "tintindex":1},
+                "south": {"uv": [0, 0, 16, 16], "texture": "#bushy", "tintindex":1}
+            }
+        
+        }
+       
+    ]
+
+}
